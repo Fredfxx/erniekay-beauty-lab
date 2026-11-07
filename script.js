@@ -195,7 +195,7 @@ bookingForm.addEventListener('submit', async (e) => {
     bookingForm.reset();
   } catch (err) {
     console.error('Booking submission error:', err);
-    alert('Booking could not be sent to the server. Please make sure your page is running on http://localhost:8080 and try again.');
+    alert('Booking could not be sent to the server. Please check your connection or contact us directly on WhatsApp.');
   } finally {
     submitBtn.disabled = false;
     submitBtn.innerHTML = originalBtnText;
