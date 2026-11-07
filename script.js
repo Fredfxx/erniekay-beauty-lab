@@ -163,7 +163,7 @@ bookingForm.addEventListener('submit', async (e) => {
     const result = await response.json();
 
     // Prepare WhatsApp Confirmation Link
-    const waPhone = '233599969286';
+    const waPhone = '233501246710';
     const waText = encodeURIComponent(
       `Hello Erniekay Beauty Lab! ✨\nI just booked an appointment on your website:\n\n` +
       `👤 Name: ${formData.fullName}\n` +
