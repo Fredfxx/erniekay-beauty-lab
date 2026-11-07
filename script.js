@@ -147,7 +147,7 @@ bookingForm.addEventListener('submit', async (e) => {
     notes: document.getElementById('notes').value.trim()
   };
 
-  const endpoint = (window.location.protocol === 'file:') ? 'http://localhost:8080/book.php' : 'book.php';
+  const endpoint = (window.location.protocol === 'file:') ? 'http://localhost:8080/book.php' : '/api/book';
 
   try {
     const response = await fetch(endpoint, {
